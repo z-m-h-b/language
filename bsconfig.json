@@ -1,0 +1,20 @@
+{
+  "name": "reason-react-starter",
+  "refmt": 3,
+  "reason": { "react-jsx": 3 },
+  "sources": [{ "dir": "src", "subdirs": true }],
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": false
+    }
+  ],
+  "bs-dependencies": [
+    "@glennsl/bs-json",
+    "bs-dynamic-import",
+    "bs-fetch",
+    "reason-loadable",
+    "reason-react",
+    "reason-react-update"
+  ]
+}
